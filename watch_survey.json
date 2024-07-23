@@ -1,0 +1,235 @@
+{
+  "survey_name": "Urban Comfort JITAI",
+  "survey_id": "urban_comfort_JITAI",
+  "survey": [{
+      "question": "Are you currently outdoors?",
+      "question_id": "q_location",
+      "response_options": [{
+          "text": "Yes",
+          "icon": "text_yes",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_activity"
+        },
+        {
+          "text": "No",
+          "icon": "text_no",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    },
+    {
+      "question": "What activity are you doing?",
+      "question_id": "q_activity",
+      "response_options": [{
+          "text": "Walking",
+          "icon": "person_walking",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort"
+        },
+        {
+          "text": "Exercising",
+          "icon": "person_dancing",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort"
+        },
+        {
+          "text": "Sitting/Relaxing",
+          "icon": "person_sitting",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort"
+        }, 
+        {
+          "text": "Standing",
+          "icon": "person_standing",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort"
+        },
+        {
+          "text": "Other",
+          "icon": "text_other",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort"
+        }                                                                                       
+      ]
+    },
+    {
+      "question": "Are you comfortable with your current urban environment?",
+      "question_id": "q_comfort",
+      "response_options": [{
+          "text": "Yes",
+          "icon": "emoticon_happy_2",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feature"
+        },
+        {
+          "text": "Neutral",
+          "icon": "emoticon_neutral_2",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feature"
+        },
+        {
+          "text": "No",
+          "icon": "emoticon_sad_2",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_feature"
+        }
+      ]
+    },
+    {
+      "question": "What factor makes you uncomfortable right now?",
+      "question_id": "q_feature",
+      "response_options": [{
+          "text": "Weather",
+          "icon": "cloud_rain_lighting",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_weather"
+        },
+        {
+          "text": "Noise",
+          "icon": "human_ear",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Placemaking",
+          "icon": "space_outdoor",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_street"
+        }, 
+        {
+          "text": "Crowdedness",
+          "icon": "person_group_3_1",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Air quality",
+          "icon": "human_nose",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Other",
+          "icon": "text_other",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }                                                                                                                   
+      ]
+    },
+    {
+      "question": "What weather element most affects your comfort?",
+      "question_id": "q_weather",
+      "response_options": [{
+          "text": "Temperature",
+          "icon": "thermometer",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Sun exposure",
+          "icon": "light_bright",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Humidity",
+          "icon": "drops",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }, 
+        {
+          "text": "Rain",
+          "icon": "cloud_rain_lighting",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "None of the above",
+          "icon": "text_none",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }                                                                                                                   
+      ]
+    },             
+    {
+      "question": "What place element most affects your comfort?",
+      "question_id": "q_street",
+      "response_options": [{
+          "text": "Street aesthetics",
+          "icon": "building_office",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Lack of greenery",
+          "icon": "person_head_relax",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "Sense of safety",
+          "icon": "shield_check_mark",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }, 
+        {
+          "text": "Other",
+          "icon": "text_other",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }                                                                                                                   
+      ]
+    }
+  ]
+}
