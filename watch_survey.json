@@ -1,6 +1,6 @@
 {
   "survey_name": "Urban Comfort JITAI",
-  "survey_id": "urban_comfort_JITAI",
+  "survey_id": "urban_comfort_jitai",
   "survey": [{
       "question": "Are you currently outdoors?",
       "question_id": "q_location",
