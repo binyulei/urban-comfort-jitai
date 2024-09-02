@@ -124,14 +124,6 @@
           "next_question_id": "q_street"
         }, 
         {
-          "text": "Crowdedness",
-          "icon": "person_group_3_1",
-          "icon_background_color": "#F1A62E",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": ""
-        },
-        {
           "text": "Air quality",
           "icon": "human_nose",
           "icon_background_color": "#F1A62E",
