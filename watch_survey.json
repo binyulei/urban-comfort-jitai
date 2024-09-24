@@ -2,6 +2,27 @@
   "survey_name": "Urban Comfort JITAI",
   "survey_id": "urban_comfort_jitai",
   "survey": [{
+      "question": "Are you on campus?",
+      "question_id": "q_campus",
+      "response_options": [{
+          "text": "Yes",
+          "icon": "text_yes",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_location"
+        },
+        {
+          "text": "No",
+          "icon": "text_no",
+          "icon_background_color": "#F1A62E",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    },
+    {
       "question": "Are you currently outdoors?",
       "question_id": "q_location",
       "response_options": [{
@@ -116,7 +137,7 @@
           "next_question_id": ""
         },
         {
-          "text": "Placemaking",
+          "text": "Street design",
           "icon": "space_outdoor",
           "icon_background_color": "#F1A62E",
           "use_sf_symbols": false,
@@ -187,7 +208,7 @@
       ]
     },             
     {
-      "question": "What place element most affects your comfort?",
+      "question": "What street element most affects your comfort?",
       "question_id": "q_street",
       "response_options": [{
           "text": "Street aesthetics",
